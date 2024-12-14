@@ -3,26 +3,37 @@ html, body {
   
 }
 
+
+
 .neon-border {
   box-shadow: 0 0 10px #0b8791, 0 0 20px #0b8791, 0 0 40px #0b8791, 0 0 60px #0b8791;
   border: 2px solid #0b8791;
   border-radius: 10px; 
 }
 
-/*.socials {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end; 
-  align-items: center; 
-  padding: 10px; 
-  background: #1E1E1E; 
+
+.certification-image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.2s;
 }
 
-.socials img {
-  width: 1%; 
-  height: 1%; 
-  margin: 0 10px; 
-}*/
+
+.download-section button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.download-section button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
 
 #typing-text {
   white-space: pre-wrap; /* Keeps line breaks as they are */
@@ -127,7 +138,7 @@ html, body {
   border-radius: 50%;
   z-index: 10px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #5f2064;
   font-size: 18px;
 }
 
@@ -136,12 +147,12 @@ html, body {
 }
 
 .btn-prev {
-  top: 610%;
+  top: 800%;
   left: 18%;
 }
 
 .btn-next {
-  top: 610%;
+  top: 800%;
   right: 18%;
 }
 
