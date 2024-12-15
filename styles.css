@@ -98,7 +98,9 @@ html, body {
     height: 70vh;
     display: grid;
     place-items: center;
+    position: relative;
 }
+
 .slider {
   width: 100%;
   max-width: 600px;
@@ -109,7 +111,7 @@ html, body {
   /*box-shadow: 0 0 4px #0b8791, 0 0 6px #0b8791, 0 0 8px #0b8791, 0 0 10px #0b8791;*/
   border: 2px solid #0b8791;
   border-radius: 10px;
-  /* overflow: hidden; */
+  overflow: hidden; 
 }
 
 
@@ -142,6 +144,7 @@ html, body {
   cursor: pointer;
   background-color: #0b8791;
   font-size: 18px;
+  transform: translateY(-50%);
 }
 
 .btn:active {
@@ -149,13 +152,13 @@ html, body {
 }
 
 .btn-prev {
-  top: 840%;
-  left: 18%;
+  top: 50%; /* Fixed position at the vertical center of the slider */
+  left: 300px; /* Adjust to place the button just outside the left border */
 }
 
 .btn-next {
-  top: 840%;
-  right: 18%;
+  top: 50%; /* Fixed position at the vertical center of the slider */
+  right: 300px; /* Adjust to place the button just outside the right border */
 }
 
 .slider {
