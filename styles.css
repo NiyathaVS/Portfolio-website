@@ -6,7 +6,8 @@ html, body {
 
 
 .neon-border {
-  box-shadow: 0 0 10px #0b8791, 0 0 20px #0b8791, 0 0 40px #0b8791, 0 0 60px #0b8791;
+  box-shadow: 0 8px 32px 0 #338fa980;
+  /*box-shadow: 0 0 10px #0b8791, 0 0 20px #0b8791, 0 0 40px #0b8791, 0 0 60px #0b8791;*/
   border: 2px solid #0b8791;
   border-radius: 10px; 
 }
@@ -31,7 +32,7 @@ html, body {
 }
 
 .download-section button:hover {
-  background-color: #45a049; /* Darker green */
+  background-color: #114e59; /* Darker green */
 }
 
 
@@ -104,9 +105,10 @@ html, body {
   height: 400px;
   position: relative;
   align-items: center;
-  box-shadow: 0 0 2px #4a0461, 0 0 4px #7a139a, 0 0 6px #69066c, 0 0 8px #5a0662;
-    border: 2px solid #570966;
-    border-radius: 10px;
+  box-shadow: 0 8px 32px 0 #338fa980;
+  /*box-shadow: 0 0 4px #0b8791, 0 0 6px #0b8791, 0 0 8px #0b8791, 0 0 10px #0b8791;*/
+  border: 2px solid #0b8791;
+  border-radius: 10px;
   /* overflow: hidden; */
 }
 
@@ -138,7 +140,7 @@ html, body {
   border-radius: 50%;
   z-index: 10px;
   cursor: pointer;
-  background-color: #5f2064;
+  background-color: #0b8791;
   font-size: 18px;
 }
 
@@ -243,7 +245,7 @@ ul {
   display: flex;
   gap: 150px;
   background: rgba(27, 26, 26, 0.5); /* Increase the background opacity */
-  box-shadow: 0 8px 32px 0 rgba(51, 143, 169, 0.5); /* Increase the shadow opacity */
+  box-shadow: 0 8px 32px 0 #338fa980; /* Increase the shadow opacity */
   backdrop-filter: blur(6px); /* Increase the blur effect */
   -webkit-backdrop-filter: blur(6px);
   border-radius: 10px;
@@ -348,7 +350,6 @@ p, h4 {
 }
 
 .contact-form {
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   padding: 30px;
   text-align: center;
@@ -402,7 +403,7 @@ textarea:valid + label {
 }
 
 button {
-  background: #0b8791;
+  background: #114e59;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -412,5 +413,5 @@ button {
 }
 
 button:hover {
-  background: #272769;
+  background: #114e59;
 } 
